@@ -2,7 +2,7 @@
 ! Title: BYD广告
 ! Homepage: https://t.me/channelofkklby
 ! Update Time: 2023-08-19
-! Total Count: 1352
+! Total Count: 1384
 ! Description：本轻量级规则可去除百度系网站，谷歌，必应等搜索引擎，萌娘百科，简书，知乎，CSDN等常用网站广告以及下载APP提示，可能存在大范围误杀，慎用［doge］
 ! by: TG@channelofkklby
 ||static.zhihu.com/heifetz/*.signflow*.js
