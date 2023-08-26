@@ -3,7 +3,7 @@
 ! Homepage: https://t.me/channelofkklby
 ! Update Time: 2023-08-19
 ! Total Count: 1352
-! Description：本轻量级规则包含百度系网站，谷歌，必应等搜索引擎，萌娘百科，简书，知乎，CSDN等常用网站的广告拦截规则，可能存在大范围误杀，慎用［doge］
+! Description：本轻量级规则可去除百度系网站，谷歌，必应等搜索引擎，萌娘百科，简书，知乎，CSDN等常用网站广告以及下载APP提示，可能存在大范围误杀，慎用［doge］
 ! by: TG@channelofkklby
 ||static.zhihu.com/heifetz/*.signflow*.js
 ||static.zhihu.com/heifetz/chunks/3551.
@@ -39,9 +39,6 @@ freejavbt02.com##.common_banner
 sm.cn###sc_app_1_1
 you.com##.sc-e72f2c26-0 fkPUQy
 https://cdn.you.com/img/images/serp-module/google-play-store_CTA.svg
-||img.alicdn.com^
-||gw.alicdn.com^
-||ucc.alicdn.com^
 baidu.com##.c-video-player
 baidu.com##[srcid^="app_mobile_simple"]
 baidu.com##[srcid*="zk_sc_header"]
@@ -1350,3 +1347,37 @@ y.music.163.com##.content
 www.google.com###sfooter
 ||moegirl.org.cn/insight/MoegirlInsight.
 zh.moegirl.org.cn##.banner-slider-container
+m.docin.com###header_plus_tips
+m.docin.com###money150
+m.docin.com###money151
+m.docin.com##.foldpagewg-bottom
+m.docin.com##.open_in_app
+m.docin.com##.btnc_light_gold
+m.docin.com###docin_html_3
+m.docin.com###money
+zhidao.baidu.com##.contextual-earches
+www.gequbao.com##.container>p
+wk.baidu.com##.fc-ad-wrap
+wk.baidu.com##.middle-box-root
+wapwenku.baidu.com,wk.baidu.com###bottomFixed
+wapwenku.baidu.com,wk.baidu.com##.tout
+wapwenku.baidu.com,wk.baidu.com##a[href^="http://www.baidu.com/cpro.php?"]
+wenku.baidu.com##.vip-activity-wrap-new
+wenku.baidu.com##.vip-center
+wenku.baidu.com##.add-tips
+wenku.baidu.com##.shop-joinus-wrap
+wenku.baidu.com##.vip-privilege-card-wrap
+wenku.baidu.com##div[page="PcView"]
+wenku.baidu.com##.comp-vip-pop
+wenku.baidu.com##.doc-hints-wrap
+wk.baidu.com##.fold-inner
+wk.baidu.com##.wk-student-defense
+wk.baidu.com##.n-card-wrap-exp
+wk.baidu.com##.app-choice_428cd
+wk.baidu.com##.newapp-choice-bar
+wk.baidu.com##.btns-wrap
+wk.baidu.com##.search-pay-container
+wk.baidu.com###app-bottom
+zhidao.baidu.com###losez64e469
+zhidao.baidu.com##.iknow-fixed-bottom-btn
+zhidao.baidu.com##.dl
