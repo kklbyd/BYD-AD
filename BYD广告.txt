@@ -3,8 +3,8 @@
 ! Homepage: https://t.me/BYD_Radio
 ! Update Time: 2023-09-29
 ! Total Count: 1376
-! Description：本轻量级规则可去除百度系网站，谷歌，必应等搜索引擎，萌娘百科，简书，知乎，CSDN等常用网站广告以及下载APP提示，可能存在大范围误杀，慎用［doge］
-! by: TG@channelofkklby
+! Description：本轻量级规则可去除百度系网站，谷歌，必应等搜索引擎，萌娘百科，简书，知乎，CSDN等常用网站广告以及下载APP提示
+! by: TG @BYD_ARK
 ||static.zhihu.com/heifetz/*.signflow*.js
 ||static.zhihu.com/heifetz/chunks/3551.
 ||static.zhihu.com/heifetz/chunks/7626.
