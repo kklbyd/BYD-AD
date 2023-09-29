@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: BYD广告
-! Homepage: https://t.me/channelofkklby
-! Update Time: 2023-08-19
-! Total Count: 1368
+! Homepage: https://t.me/BYD_Radio
+! Update Time: 2023-09-29
+! Total Count: 1376
 ! Description：本轻量级规则可去除百度系网站，谷歌，必应等搜索引擎，萌娘百科，简书，知乎，CSDN等常用网站广告以及下载APP提示，可能存在大范围误杀，慎用［doge］
 ! by: TG@channelofkklby
 ||static.zhihu.com/heifetz/*.signflow*.js
@@ -14,6 +14,15 @@
 zh.m.wikipedia.org##.banner-container
 t.shuqi.com##.stBanner
 t.shuqi.com##.CommonGuideBar
+www.yuque.com##.ant-btn
+www.yuque.com###openInAppBtn
+@@||hoytv-live-stream.hoy.tv
+www.apkmirror.com###bottom-slider
+www.apkmirror.com##.advertisement-text
+www.apkmirror.com##.google-ad-leaderboard
+manga.bilibili.com##.download-tip
+manga.bilibili.com##.download-hinter
+m.163.com##.backflow-floating
 pan.baidu.com##.wp-s-share-to-link__share-ad
 greasyfork.org##.ad-content
 www.wenshushu.cn##.g-download_app
