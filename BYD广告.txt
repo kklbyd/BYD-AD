@@ -1,28 +1,27 @@
 [Adblock Plus 2.0]
 ! Title: BYD广告
 ! Homepage: https://t.me/BYD_Radio
-! Update Time: 2023-09-29
+! Update Time: 2023-09-30
 ! Total Count: 1379
-! Description：本轻量级规则可去除百度系网站，谷歌，必应等搜索引擎，萌娘百科，简书，知乎，CSDN等常用网站广告以及下载APP提示
+! Description：本规则主要针对百度系网站，谷歌，必应等搜索引擎，萌娘百科，简书，头条，凤凰网，知乎，CSDN等常用网站的广告以及下载APP提示
 ! by: TG @BYD_ARK
 ||static.zhihu.com/heifetz/*.signflow*.js
-||static.zhihu.com/heifetz/chunks/3551.
-||static.zhihu.com/heifetz/chunks/7626.
+m.163.com##.backflow-floating
+manga.bilibili.com##.download-hinter
+manga.bilibili.com##.download-tip
+www.apkmirror.com##.google-ad-leaderboard
+www.apkmirror.com##.advertisement-text
+www.apkmirror.com###bottom-slider
+www.yuque.com###openInAppBtn
+www.yuque.com##.ant-btn
+m.toutiao.com##.float-activate-button
 |www.zhihu.com/api/v4/questions/*/related-readings
 |www.zhihu.com/api/v4/hot_recommendation
 |api.zhihu.com/distribute/rhea/qa_ad_card
 zh.m.wikipedia.org##.banner-container
 t.shuqi.com##.stBanner
 t.shuqi.com##.CommonGuideBar
-www.yuque.com##.ant-btn
-www.yuque.com###openInAppBtn
 @@||hoytv-live-stream.hoy.tv
-www.apkmirror.com###bottom-slider
-www.apkmirror.com##.advertisement-text
-www.apkmirror.com##.google-ad-leaderboard
-manga.bilibili.com##.download-tip
-manga.bilibili.com##.download-hinter
-m.163.com##.backflow-floating
 pan.baidu.com##.wp-s-share-to-link__share-ad
 greasyfork.org##.ad-content
 www.wenshushu.cn##.g-download_app
@@ -111,7 +110,6 @@ zy.baidu.com###widgetCarousel
 m.baidu.com##.se-ft-promlink
 wap.sogou.com###sogou_vr_70323201_-5
 wap.sogou.com###sogou_vr_70321601_5
-zh.moegirl.org.cn###moe-open-in-app
 zh.moegirl.org.cn##.vue3-marquee
 zh.moegirl.org.cn##.v-binder-follower-container
 zh.moegirl.org.cn##.n-button--secondary
@@ -1376,3 +1374,128 @@ wk.baidu.com###app-bottom
 zhidao.baidu.com###losez64e469
 zhidao.baidu.com##.iknow-fixed-bottom-btn
 zhidao.baidu.com##.dl
+bing.com#@#li[class=""][data-bm][style*="margin-bottom"]
+bing.com#@#.b_adLastChild
+bing.com#@$#body .b_adLastChild { display: block !important; position: absolute !important; top: -9999px !important; }
+bing.com#@$#body .pa_carousel_mlo { display: block !important; position: absolute !important; top: -9999px !important; }
+bing.com#@#.shop_page .br-poleoffcarousel
+bing.com#@#.adsMvC
+bing.com#@##b_content > div#pole > div[class="ra_car_block ra_pole"] > div.ra_car_container
+bing.com#@$#.b_ad { position: absolute!important; left: -3000px!important; }
+bing.com#@#.sb_adTA
+bing.com#@#.b_adPATitleBlock
+bing.com#@#.b_adPATitleBlock + div
+bing.com#@##b_content > main > #b_results > li:not(.b_algo):not(.b_ans):not(.b_mop):not(.b_pag)
+bing.com#@?##b_results > li.b_algo:has(> .b_caption > p:matches-css-before(content: /^(Ad|Ann\.|Annonce|Anúncio|Anzeige|Reklama|Реклама|Reclamă|Publicidade)$/))
+bing.com#@?##b_results > li:has(> h2 + .b_caption > div.b_attribution:not([u]) + p[class])
+bing.com#@?##b_results > .b_algo:has(> .b_caption > .b_attribution:matches-css-before(content: /url\(data:image/))
+bing.com#@#.b_spa_adblock
+@@||r.bat.bing.com/?ld=
+carview.yahoo.co.jp#@##ad_SS
+search.yahoo.co.jp#@#.sw-Card.Ad
+@@||search.yahoo.com^$document
+@@||ask.com/web$document
+search.ask.com#@#.sponsoredTop
+search.ask.com#@##sponsoredTop
+yandex.*#@#body:not([data-bem*="pogoda"]) .mini-suggest__popup-content > li[data-type="nav"]
+[$path=/search]yandex.*#@?#.serp-list > li.serp-item:has(> div[data-bem*="organic"] > div.organic__title-wrapper > a[href][data-event-required])
+amazon.in,amazon.fr,amazon.co.uk,amazon.de#@#.s-result-list > li[id^="result_"][style*="display: block;"]
+amazon.de#@#div[data-cel-widget="desktop-rhf_SponsoredProductsRemoteRHFSearchEXPSubsK2ClickPagination"]
+amazon.com,amazon.de#@##huc-first-upsell-row
+amazon.com#@?##huc-page-container > div[role="complementary"]:has(a[href*="ref=huc_sponsor"])
+amazon.de#@#div[data-p13n-asin-metadata*="adId"]
+amazon.de#@?##sc-checkout-prefetch + .a-section + .a-section > .a-section:has(> .a-section > div[data-p13n-asin-metadata*="adId"] )
+amazon.de#@##detailILMPercolate_feature_div
+amazon.co.jp#@#span[class*="slot_adPlacements"]
+amazon.de#@#.widgetId\=loom-desktop-brand-footer-slot_hsa-id
+amazon.de#@#span[class*="_adPlacements:"]
+amazon.de#@?#.s-result-list > div[data-asin].s-result-item:has( > .a-section > .widgetId\=loom-desktop-brand-footer-slot_hsa-id)
+amazon.de#@?#div[class*="csm-placement-id-"]:has(> div[cel_widget_id^="adplacements"])
+amazon.de#@#div[data-cel-widget*="desktop-dp-sims_SponsoredProductsSims"]
+amazon.de#@#div[class*="thirdPartySponsorLink"]
+amazon.de#@#span[cel_widget_id="MAIN-VIDEO_SINGLE_PRODUCT"]
+amazon.de#@?#.s-result-list > div[data-asin]:has(> .sg-col-inner > span[cel_widget_id="MAIN-VIDEO_SINGLE_PRODUCT"])
+amazon.de#@#div[cel_widget_id="mobile-cart-carousels_SponsoredProductsPaginatedMobileCartEXPSubstitutesStrategy"]
+amazon.de#@##content > .a-spacing-top-large > .a-section[style="display: none !important;"] + .a-divider-normal
+amazon.de#@?##content > .a-spacing-top-large > .a-section:has(> .a-section > div[cel_widget_id="mobile-cart-carousels_SponsoredProductsPaginatedMobileCartEXPSubstitutesStrategy"])
+amazon.de#@##productAlert_feature_div
+amazon.de#@#span[class*="widget=loom-desktop-inline-slot"]
+amazon.de#@?#div[data-asin]:has(> div.sg-col-inner > span[class*="widget=loom-desktop-inline-slot"])
+amazon.de#@#.sbx-mobile
+amazon.*#@#span[class*="top-slot_hsa-id"]
+amazon.*#@##sims-mobile-consolidated-3
+amazon.de#@#div[class*="ad-topper"]
+amazon.*#@#div[data-slot="auto-sparkle-hsa-tetris"]
+amazon.*#@##recsWidget
+amazon.*#@#div[cel_widget_id^="tetris-"]
+amazon.*#@#.csm-widget-type-sponsored-products-mobile-list-card
+amazon.*#@?#.sl-carousel-card-faceout-element:has(.sl-carousel-card-sponsored-label)
+amazon.*#@?#.mobile-sims-grid-card-view div.a-section > span[class*="_sponsored_"]:upward(.mobile-sims-grid-card-view)
+amazon.*#@?##similarities_feature_div span.threepsl-sponsored:upward(#similarities_feature_div)
+amazon.*#@?##WrapperDivToHideBTF > div[cel_widget_id]:has(> div[data-a-remove-bottom-gutter] > div[data-a-card-type] > div[cel_widget_id="mobile-dp-sims_SponsoredProductsSimsDpThematicMobile"])
+amazon.*#@?#div.s-result-item[data-asin=""]:has(> .sg-col-inner > div[cel_widget_id^="MAIN-VIDEO_SINGLE_PRODUCT-"])
+amazon.*#@#div[class*="btf_ad-placements-"]
+amazon.*#@#div[data-csm-widget-type="sponsored-products-mobile-grid-card"]
+amazon.*#@#div[data-cel-widget^="MAIN-SHOPPING_ADVISER-"]
+amazon.*#@#.s-search-results > div[data-asin] div[data-component-props*="Sponsored"]
+amazon.*#@?#.s-search-results > div[data-asin]:has(> div[class] > div[cel_widget_id] > div[data-component-props*="Sponsored"])
+amazon.de,amazon.com,amazon.co.uk,amazon.fr,amazon.in,amazon.it,amazon.es#@#div[class*="widget=loom-"][class*="FEATURED"]
+amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.com.be,amazon.se,amazon.sg#@#div[id^="sp_detail"]
+amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.com.be,amazon.se,amazon.sg#@##sponsoredProducts2_feature_div
+amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.com.be,amazon.se,amazon.sg#@#div[id^="sponsoredProducts"]
+amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.com.be,amazon.se,amazon.sg#@#div[cel_widget_id="sims-consolidated-3_csm_instrumentation_wrapper"]
+amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.com.be,amazon.se,amazon.sg#@#div[cel_widget_id*="_SponsoredProducts"]
+amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.com.be,amazon.se,amazon.sg#@#div[cel_widget_id*="desktop-dp-"]
+amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.com.be,amazon.se,amazon.sg#@#div[cel_widget_id="sp-rhf-desktop-carousel_desktop-rhf_0"]
+amazon.*#@#div[cel_widget_id="mobile-dp-sims_SPThematicBrand_Same"]
+amazon.*#@#section[class*="csm-placement-id"]
+amazon.*#@?#div[data-order-sm]:has(> div[data-csa-c-painter="ad-topper-desktop-card"]:first-child + div[data-csa-c-painter="enumclaw-slot-display-ad"]:last-child)
+search.brave.com#@#div[data-advertiser-id]
+buscape.com.br#@#div[class^="Hits_SponsoredWrapper__"]
+mediafire.com#@##upsellBox
+@@||startpage.com/adsense/search/async-ads.js$domain=startpage.com
+@@||startpage.com^$elemhide,content
+irr.ru#@#.ad-link
+@@||an.yandex.ru$domain=irr.ru
+nigma.ru#@#.ad-link
+@@||an.yandex.ru$domain=nigma.ru
+go.mail.ru#@#.response___wrapper > #js-topBar > div > div[class*="p"][class*="t"] > style + div
+go.mail.ru#@#.response___wrapper > #js-bottomBar > div > div[class*="b"][class*="t"] > style + div
+go.mail.ru#$#.response___wrapper > #js-topBar > div > div[class*="p"][class*="t"] > style + div { position: absolute!important; left: -3000px!important; }
+go.mail.ru#$#.response___wrapper > #js-bottomBar > div > div[class*="b"][class*="t"] > style + div { position: absolute!important; left: -3000px!important; }
+duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion,duckduckgo.com#@#.result--ad > .result__body
+duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion,duckduckgo.com#@#.sponsored
+duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion,duckduckgo.com#@#.highlight_sponsored
+duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion,duckduckgo.com#@##ads
+duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion,duckduckgo.com#@#.js-results-ads
+duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion,duckduckgo.com#@#.results--ads
+ecosia.org#@#.results-ads
+ecosia.org#@#.card-ad
+ecosia.org#@#.js-ad
+presearch.org#@#div[x-data*="keywordAdFirst"]
+suchmaschine.com#@##ypa-top-wrap > iframe[src^="http://partnerads.ysm.yahoo.com/ypa/?"]
+@@||ecosia.org^$elemhide
+qwant.com#@?#.results-container > div.result:has(> div.url > span.info:contains(Annonce))
+lite.qwant.com#@?#.content > article.result:has(> p > span.ad)
+oscobo.com#@?##results-list > .result:has(> a > .cite > .ba)
+swisscows.com#@#.web-results > .a11t
+tempest.com#@#.search-result-item--ad
+tempest.com#@?#.search-result-item:has(> div.search-result-item__text--sidebar-ad-or-mobile)
+ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#@##content_left > div:not([class]) > div[data-placeid]
+baidu.com#@#.bds-list-ads
+m.toutiao.com##.download-bar__container
+|https://x0.ifengimg.com/feprod/c/m/mobile_inice_v202.js
+ifeng.com##.index_link_wek7z
+ifeng.com##.index_bottom_box_CCgoj
+i.ifeng.com##.index_pageBottomBrandPic_1aXaS
+ifeng.com##.index_pageBottomBrand_UHTZx
+ifeng.com##.index_header_e8RAq
+ifeng.com##.index_headerIn_8MwXN
+ifeng.com##.index_pageBody_-6tWp>setion>section
+ifeng.com##.index_callupBtn_7BQho
+ifeng.com##.index_more_NBjVW
+ifeng.com##.index_more_box_EX8PQ
+ifeng.com##.index_box_gSVh-
+ifeng.com##.index_wrap_r5HZC
+ifeng.com##.index_allLook_kneEE
+ifeng.com##.index_relateVideo_f2iSz
