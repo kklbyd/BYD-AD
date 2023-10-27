@@ -3,7 +3,7 @@
 ! Description：本规则主要针对百度系网站，谷歌，必应等搜索引擎，萌娘百科，简书，知乎，CSDN等常用网站的广告以及下载APP提示
 ! Homepage: https://t.me/BYD_Radio
 ! Update Time: 2023-10-28
-! Total Count: 1670
+! Total Count: 1660
 ! by: TG @BYD_ARK
 !+ NOT_OPTIMIZED
 ###ad-header-mobile-contener
@@ -48,9 +48,6 @@
 18comic.vip##div[data-group^="skyscraper_"]
 18comic.vip#?#.thumb-overlay-albums > div[class][data-group^="photo_center_games_"]:has(> a[target="_blank"] > img)
 18comic.vip,18comic.org##div[data-height="250"][data-width="300"]
-18moe.org##.alignnone[alt="pmJ"]
-18moe.vip##a[href^="http"]:not([href*="18moe.vip"]) > img[src*="tc.18moe.net"]
-39.net##.ad-tl
 @@||accounts.google.com^$popup
 @@||ads.google.com^$domain=ads.google.com|analytics.google.com
 @@||ads.spotify.com^$popup
@@ -413,6 +410,7 @@ baike.baidu.com##[onclick^="page.Mixedor.mixedOpen(this,"]
 bilibili.com###b_app_link
 bilibili.com###fixed_app_download
 bilibili.com###slide_ad + .ad-report
+bilibili.com##.activity-slider[style="width: 1220px;"]
 bilibili.com##.ad-e1
 bilibili.com##.ad-f
 bilibili.com##.ad-report
@@ -442,12 +440,18 @@ bilibili.com##a[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"
 bilibili.com##a[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"] + .bili-video-card__info
 bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"])
 bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]) + .bili-video-card__info
+bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"])
+bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"]) + .bili-video-card__info
 bilibili.com##a[href="/video/av8587236/?tg"]
+bilibili.com##bili-open-app div.open-btn
+bilibili.com##bili-open-app ~ bili-open-app
 bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
 bilibili.com#$?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__skeleton { visibility: visible !important; }
 bilibili.com#$?#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__skeleton { visibility: visible !important; }
+bilibili.com#$?#.container > div.floor-single-card:has(> div.skeleton) { remove: true; }
 bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
+bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
 bilibili.com#?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
 bilibili.com#?#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
@@ -1450,13 +1454,6 @@ www.baidu.com##.callicon-warp
 www.baidu.com##.ec_wise_ad
 www.baidu.com##.yx-entity__1htNY
 www.baidu.com##a.square-enterance
-www.bilibili.com##.bili-video-card__skeleton--cover
-www.bilibili.com##.hide
-www.bilibili.com##.i_menu
-www.bilibili.com##.nav-link-ul
-www.bilibili.com##.pop-live-small-mode
-www.bilibili.com##.recommended-swipe
-www.bilibili.com##.reply-notice
 www.bqgyy.net###nu71t_c4ca4238a0b923820dcc509a6f75849b
 www.bqgyy.net##.nu71t_c4ca4238a0b923820dcc509a6f75849b
 www.csdn.net##.m_toolbar_left_app_btn
