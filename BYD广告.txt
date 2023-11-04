@@ -887,7 +887,6 @@ m.youku.com,v.youku.com#%#//scriptlet('set-constant', 'Object.prototype._adData'
 m.youm7.com##.mobileAdvFooter
 m.youtube.com###koya_child_6
 m.youtube.com##.companion-ad-container
-m.youtube.com##.rounded-container
 mail.yahoo.co.jp##img[alt="Yahoo!����꒤����"]
 mail.yahoo.co.jp##img[alt="Yahoo!����꒤����"] + div[class^="sc-"]
 mail.yahoo.com###slot_LREC
@@ -1665,3 +1664,7 @@ zy.baidu.com##a[href^="https://zy.baidu.com/act/seo"]
 ||www.youtube.com/ptracking
 ||zkappsart.com^
 ~weibo.com##.con_ad
+.adsbygoogle
+www.bilibili.com##.open-btn
+www.bilibili.com##.float-btn
+sleazyfork.org##.ad-entry
