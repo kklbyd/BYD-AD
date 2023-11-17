@@ -3,7 +3,7 @@
 ! Description：本规则主要针对百度系网站，谷歌，必应等搜索引擎，萌娘百科，简书，知乎，CSDN等常用网站的广告以及下载APP提示
 ! Homepage: https://t.me/BYD_Radio
 ! Update Time: 2023-10-28
-! Total Count: 1668
+! Total Count: 1674
 ! by: TG @BYD_ARK
 !+ NOT_OPTIMIZED
 ###ad-header-mobile-contener
@@ -603,6 +603,7 @@ csdn.net#?##feedlist_id > li:has(> div[id^="kp_box_"])
 csdn.net#?#aside > div.slide-outer:has(> div.box > div[adsid])
 csdn.net,itboth.com,iteye.com,itkeyword.com###ad_pop
 cupfox.app#?##outer-container > .model:has(> .model-content > a[href*=".jd.com"])
+deepl.com##.AppBanner-module--banner--2Ezkw
 disk.yandex.com,disk.yandex.ru##.direct-public__sticky-box
 docs.google.com##.docs-ml-promotion
 download.csdn.net##.ad_area_1
@@ -1422,16 +1423,19 @@ wenku.baidu.com##div[class*="tiger-"][class*="-dialog"]
 wenku.baidu.com##div[id^="html-reader-AD-"]
 wenku.baidu.com##div[id^="html-reader-banner-"]
 wenku.baidu.com##div[page="PcView"]
-wk.baidu.com###app-bottom
-wk.baidu.com##.app-choice_428cd
-wk.baidu.com##.btns-wrap
-wk.baidu.com##.fc-ad-wrap
-wk.baidu.com##.fold-inner
-wk.baidu.com##.middle-box-root
-wk.baidu.com##.n-card-wrap-exp
-wk.baidu.com##.newapp-choice-bar
-wk.baidu.com##.search-pay-container
+wk.baidu.com##.card-box
 wk.baidu.com##.wk-student-defense
+wk.baidu.com##.search-pay-container
+wk.baidu.com##.app-choice_428cd
+wk.baidu.com##.btns-wrap>div
+wk.baidu.com##div[page-data="[object Object],[object Object],[object Object],[object Object]"]
+wk.baidu.com##.new-releted-doc
+wk.baidu.com##.search-vip-card
+wk.baidu.com##.tools-guide-card-defence
+wk.baidu.com##.green-guide-card
+wk.baidu.com##.copy-all-text-container
+wk.baidu.com##.btn-download
+www.123pan.com##.bottom_banner_guide
 www.123pan.com###bannerBottom
 www.123pan.com##.appHeader
 www.123pan.com##img[src="https://statics.123pan.com/static-by-custom/img/s1.png"]
