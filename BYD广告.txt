@@ -2,8 +2,8 @@
 ! Title: BYD广告
 ! Description：本规则主要针对百度系网站，谷歌，必应等搜索引擎，萌娘百科，简书，知乎，CSDN等常用网站的广告以及下载APP提示
 ! Homepage: https://t.me/BYD_Radio
-! Update Time: 2023-10-28
-! Total Count: 1674
+! Update Time: 2024-01-05
+! Total Count: 1710
 ! by: TG @BYD_ARK
 !+ NOT_OPTIMIZED
 ###ad-header-mobile-contener
@@ -1672,3 +1672,39 @@ zy.baidu.com##a[href^="https://zy.baidu.com/act/seo"]
 www.bilibili.com##.open-btn
 www.bilibili.com##.float-btn
 sleazyfork.org##.ad-entry
+wk.baidu.com##.n-wrap
+wk.baidu.com##.to-collect
+m.36kr.com##.article-top-swiper-goapp
+m.36kr.com##.app-track-banner-outer
+m.36kr.com##.float-app-button-wrp
+tieba.baidu.com###tiebaCustomPassLogin
+tieba.baidu.com##.region_bright
+tieba.baidu.com##.u_member
+juejin.cn##.open-button
+m.qidian.com##.mask
+m.qidian.com##.first-item
+m.qidian.com###bookDetailDownload
+m.qidian.com##.inset-0
+m.qidian.com##.js-download-link
+m.qidian.com##.regular
+m.qidian.com##.auto-tr
+m.qidian.com##._footerBackTopCell_1eu4r_203
+m.qidian.com##._bottomNavDl_1vaag_1777
+zhidao.baidu.com##.question-answer-reward-tips-content
+zhidao.baidu.com##.question-answer-guide
+zhidao.baidu.com##.icon-reward
+www.zhihu.com##.css-vzd0n
+www.zhihu.com##.css-1wq6v87
+m.bilibili.com##.bili-avatar-pendent-dom
+m.bilibili.com##.bili-avatar-size-48
+m.bilibili.com##.bili-avatar-nft-icon
+m.bilibili.com##.sailing
+m.bilibili.com##.nameplate-icon
+poe.com##.ReactModal__Overlay
+|https://www.apkmirror.com/detroitchicago/portland.js?gcb=6&cb=81
+||static.zhihu.com/heifetz/*.signflow*.js
+artbarricade.fandom.com##.notifications-box
+download.csdn.net##.blind_box
+download.csdn.net##.btn
+www.tiktok.com##.css-lzx7z-DivBodyWrapper
+www.tiktok.com##.css-1xw8s8f-DivMask
