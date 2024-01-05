@@ -1484,7 +1484,6 @@ www.speedtest.net##.webstore-app-links
 www.wenshushu.cn##.g-download_app
 www.yuque.com###openInAppBtn
 www.yuque.com##.ant-btn
-www.zhihu.com##.Button--primary
 www.zhihu.com##.OpenInAppButton
 www.zhihu.com##.css-183aq3r
 www.zhihu.com##A.MBannerAd
