@@ -2,8 +2,8 @@
 ! Title: BYD广告
 ! Description：本规则主要针对百度系网站，谷歌，必应等搜索引擎，萌娘百科，简书，知乎，CSDN等常用网站的广告以及下载APP提示
 ! Homepage: https://t.me/BYD_Radio
-! Update Time: 2024-01-05
-! Total Count: 1710
+! Update Time: 2024-01-06
+! Total Count: 1709
 ! by: TG @BYD_ARK
 !+ NOT_OPTIMIZED
 ###ad-header-mobile-contener
@@ -1291,7 +1291,6 @@ tieba.baidu.com###j_light_see_index
 tieba.baidu.com###pagelet_entertainment-liveshow\/pagelet\/video_head
 tieba.baidu.com##.app-view > div.top-guide
 tieba.baidu.com##.app_download_box
-tieba.baidu.com##.clearfix.thread_item_box
 tieba.baidu.com##.client_ad_banner
 tieba.baidu.com##.client_ad_topBanner
 tieba.baidu.com##.client_ad_topBanner + .statistics_img_view + li[class]
@@ -1336,6 +1335,11 @@ tieba.baidu.com##div[class*='-ad-pb-']
 tieba.baidu.com##nav > div[class="w-row w-row-align-center w-row-justify-between nav-bar"]
 tieba.baidu.com,wapp.baidu.com##.iSlider-wrapper-container-hot-thread
 tieba.baidu.com,wapp.baidu.com##a.fixed_bar
+tieba.baidu.com###tiebaCustomPassLogin
+tieba.baidu.com##.region_bright
+tieba.baidu.com##.u_member
+juejin.cn##.open-button
+|https://tieba.baidu.com/errorpage/getGoodThread
 tiktok.com##.app-promotion
 tiktok.com##.download-container.card
 tiktok.com##.footer-guide
@@ -1633,7 +1637,6 @@ zy.baidu.com##a[href^="https://zy.baidu.com/act/seo"]
 |api.zhihu.com/distribute/rhea/qa_ad_card
 |https://gamein.baidu.com/game/link/jump?number=40
 |https://map.baidu.com/zt/client/index/?down=iphone&qd=1012139p&fr=webapp_callna
-|https://tieba.baidu.com/errorpage/getGoodThread
 |https://www.jianshu.com/apps
 |https://x0.ifengimg.com/feprod/c/m/mobile_inice_v202.js
 |tsyndicate.com
@@ -1676,10 +1679,6 @@ wk.baidu.com##.to-collect
 m.36kr.com##.article-top-swiper-goapp
 m.36kr.com##.app-track-banner-outer
 m.36kr.com##.float-app-button-wrp
-tieba.baidu.com###tiebaCustomPassLogin
-tieba.baidu.com##.region_bright
-tieba.baidu.com##.u_member
-juejin.cn##.open-button
 m.qidian.com##.mask
 m.qidian.com##.first-item
 m.qidian.com###bookDetailDownload
