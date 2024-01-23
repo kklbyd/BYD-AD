@@ -2,7 +2,7 @@
 ! Description：本规则主要针对百度系网站，谷歌，必应等搜索引擎，萌娘百科，简书，知乎，CSDN等常用网站的广告以及下载APP提示
 ! Homepage: https://t.me/BYD_Radio
 ! Title: BYD广告
-! Total Count: 1768
+! Total Count: 1766
 ! Update Time: 2024-01-05
 ! by: TG @BYD_ARK
 !+ NOT_OPTIMIZED
