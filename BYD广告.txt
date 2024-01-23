@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Title: BYD广告
 ! Description：本规则主要针对百度系网站，谷歌，必应等搜索引擎，萌娘百科，简书，知乎，CSDN等常用网站的广告以及下载APP提示
 ! Homepage: https://t.me/BYD_Radio
-! Update Time: 2024-01-06
-! Total Count: 1709
+! Title: BYD广告
+! Total Count: 1768
+! Update Time: 2024-01-05
 ! by: TG @BYD_ARK
 !+ NOT_OPTIMIZED
 ###ad-header-mobile-contener
@@ -27,6 +27,7 @@
 ##.openApp
 ##DIV#googleads-popup.popup.visible
 ##div[id^="yandex_ad"]
+.adsbygoogle
 163.com###suning-bottom-banner
 163.com,bilibili.com,longzhu.com##a[href*=".admaster."]
 18comic.*#?#body .bot-per
@@ -48,6 +49,9 @@
 18comic.vip##div[data-group^="skyscraper_"]
 18comic.vip#?#.thumb-overlay-albums > div[class][data-group^="photo_center_games_"]:has(> a[target="_blank"] > img)
 18comic.vip,18comic.org##div[data-height="250"][data-width="300"]
+3g.163.com##.area-card, .js-open-app, .js-area
+3g.163.com##.main > div > div, .swiper-container-android, .s-openApp
+3g.163.com##.widget-floatMenu, footer > span
 @@||accounts.google.com^$popup
 @@||ads.google.com^$domain=ads.google.com|analytics.google.com
 @@||ads.spotify.com^$popup
@@ -97,7 +101,7 @@
 @@||youtube.com/ads/preferences/$popup
 @@||youtube.com/live_chat?$stealth
 [$path=/search]yandex.*#@?#.serp-list > li.serp-item:has(> div[data-bem*="organic"] > div.organic__title-wrapper > a[href][data-event-required])
-[Adblock Plus 2.0]
+adguard.com##.flash-wrapper__in
 adrama.to#?#.post_sidebar > div.side_box:has(div[id^="mynewads_"])
 amazon.*#@##recsWidget
 amazon.*#@##sims-mobile-consolidated-3
@@ -164,6 +168,7 @@ apkmirror.com#%#//scriptlet('abort-on-stack-trace', 'document.querySelectorAll',
 apkmirror.com#%#//scriptlet('remove-class', 'disabled', 'a.downloadButton.disabled')
 apkmirror.com$$script[wildcard="*document.querySelector*.classList.add*.innerHTML*"][min-length="200"][max-length="700"]
 apkmirror.com,tuxpi.com#@#.adslot
+artbarricade.fandom.com##.notifications-box
 avtb01.com,beauty321.com,aotu43.com,csdn.net##.ads
 baidu.com###J-super-layer-promote
 baidu.com###activateGuidePopupOuter
@@ -400,6 +405,10 @@ baidu.com,comefromchina.com#@#.ad-block
 baidu.com,youdao.com,yun.cn#@#.share-content
 baidu.dj###ETE
 baiduyun.wiki##.tecent-adsense
+baijiahao.baidu.com##.contentPadding:is(.bottomTTSStruct, .contentMedia > div)
+baijiahao.baidu.com##.infinite-scroll-component__outerdiv
+baijiahao.baidu.com##.invokeAppBtnWrapper, .openImg, #headDeflectorContainer
+baijiahao.baidu.com##.undefined, .headDeflectorContainer
 baike.baidu.com###J-declare
 baike.baidu.com##.article-copyright
 baike.baidu.com##.baike-dynamic-wrapper
@@ -538,6 +547,7 @@ blog.csdn.net###commentRewardForm
 blog.csdn.net###formRewardBox
 blog.csdn.net###kp_box_www_swiper_ban
 blog.csdn.net###loginTag
+blog.csdn.net##.app_abtest_btn_open
 blog.csdn.net##.blog-slide-ad-box
 blog.csdn.net##.comment-rewarddialog-box
 blog.csdn.net##.comment-write-bt
@@ -607,6 +617,8 @@ deepl.com##.AppBanner-module--banner--2Ezkw
 disk.yandex.com,disk.yandex.ru##.direct-public__sticky-box
 docs.google.com##.docs-ml-promotion
 download.csdn.net##.ad_area_1
+download.csdn.net##.blind_box
+download.csdn.net##.btn
 download.csdn.net##.quake-slider
 duckduckgo.com##.js-atb-banner
 duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion,duckduckgo.com#@##ads
@@ -635,6 +647,7 @@ go.mail.ru#@#.response___wrapper > #js-bottomBar > div > div[class*="b"][class*=
 go.mail.ru#@#.response___wrapper > #js-topBar > div > div[class*="p"][class*="t"] > style + div
 greasyfork.org##.ad-content
 greasyfork.org##.ad-entry
+h5.qzone.qq.com##.mod-native-tips-wrap
 hackhw.com,ithome.com###hd_float
 hao.360.cn###snatch-logo
 hao.360.com#?#.cube-container div.cube-mod:has(span.adMark)
@@ -819,11 +832,20 @@ jianshu.com##a[id^="web-note-ad"]
 jianshu.com##div[aria-label="amc-ad"]
 jianshu.com##section[aria-label="jianshu-ad"]
 jianshu.com##section[class][aria-label="ad360-ad"]
+jingyan.baidu.com###wgt-ad-guess > .ad-card, .feed-ad-wrap
 jmcomic1.me##.top-a2db
+juejin.cn##.app-open-button
+juejin.cn##.open-button
 lite.qwant.com#@?#.content > article.result:has(> p > span.ad)
 live.bilibili.com##.container-wrapper[style="height:180px;min-width:1280px"]
 live.bilibili.com##.container-wrapper[style="height:446px;min-width:1280px"]
 m.163.com##.backflow-floating
+m.163.com##.js-open-app, .js-recommend-vip, .backflow-floating, .js-recommend.recommend
+m.36kr.com##.app-track-banner-outer
+m.36kr.com##.article-top-swiper-goapp
+m.36kr.com##.float-app-button-wrp
+m.amap.com##.call_native_button_wrapper
+m.amap.com##.clearfix.shadow
 m.baidu.com###navs
 m.baidu.com###page-copyright
 m.baidu.com##.banners.banners-2
@@ -833,6 +855,7 @@ m.baidu.com##.c-line-ivkmask
 m.baidu.com##.callicon-warp
 m.baidu.com##.ec_ad_results
 m.baidu.com##.ec_adv
+m.baidu.com##.ec_wise_ad, .c-video-container, .c-blocka ec_title
 m.baidu.com##.news_ad
 m.baidu.com##.se-ft-promlink
 m.baidu.com##[srcid^="live_medical"]
@@ -842,10 +865,17 @@ m.baidu.com##a.square-enterance
 m.baidu.com##a[href*="m.lecai.com"]
 m.baomoi.com##.bm_Bp
 m.baomoi.com##.footer__anchor-event
+m.bilibili.com###openAppBtn
+m.bilibili.com##.bili-avatar-nft-icon
+m.bilibili.com##.bili-avatar-pendent-dom
+m.bilibili.com##.bili-avatar-size-48
 m.bilibili.com##.fe-ui-open-app-btn
+m.bilibili.com##.index__openAppBtn__src-commonComponent-topArea-
 m.bilibili.com##.m-video2-awaken-btn
 m.bilibili.com##.mplayer-widescreen-callapp
+m.bilibili.com##.nameplate-icon
 m.bilibili.com##.openapp-dialog
+m.bilibili.com##.sailing
 m.bilibili.com##div[class*="-openapp"]
 m.docin.com###docin_html_3
 m.docin.com###header_plus_tips
@@ -855,15 +885,46 @@ m.docin.com###money151
 m.docin.com##.btnc_light_gold
 m.docin.com##.foldpagewg-bottom
 m.docin.com##.open_in_app
+m.douban.com##.app-link
+m.douban.com##.btn
+m.douban.com##div[style="position: fixed; top: 0px; overflow: hidden; z-index: 2147483647; background-color: rgba(0, 0, 0, 0.5); height: 110%;"]
+m.douban.com##div[style="position: relative;margin: 0 -18px"]
+m.douban.com##img[src="https://img1.doubanio.com/f/talion/1c887848ff2671f8ae3a4530ab32e268b98a04cd/pics/card/download_app_banner.png"]
+m.duitang.com###__next>.am-flexbox-align-center:contains(首页):style(margin-top:-44px !important)
+m.duitang.com###__next>.am-flexbox-align-center:has(#topBtn1)
+m.duitang.com###top-swiper-box, #bottomBrowBtn2, #openAppInBlog
+m.hupu.com##.tabs-component-search-app
+m.huya.com##.btn-open-adpp
+m.huya.com##.header-app-btn
+m.huya.com##.input-text
+m.huya.com##.open-app-button
+m.huya.com##.show_more
+m.ithome.com##.hot-app, .open-app, .open-app-banner, .brand-column-lapin
+m.ithome.com##.placeholder:has(.tip-gray)
+m.qidian.com###bookDetailDownload
+m.qidian.com##._bottomNavDl_1vaag_1777
+m.qidian.com##._footerBackTopCell_1eu4r_203
+m.qidian.com##.auto-tr
+m.qidian.com##.first-item
+m.qidian.com##.inset-0
+m.qidian.com##.js-download-link
+m.qidian.com##.mask
+m.qidian.com##.regular
 m.sm.cn###footlink
 m.sm.cn###sc_app_game_reco_1_6
 m.sm.cn##.ad-alert-info
 m.sm.cn##.app-bottom-info
 m.sm.cn##DIV[ad_seid],.dl-banner-lg.card
+m.sohu.com###middleText, #middleBanner, #bottomBanner, .common-ad, #CallAppContainer
+m.sohu.com##.center-header, body > div > [src], .feed-list-scoped > div
+m.sohu.com##.f:has(span.ad-tag), .feed-item-scoped:has(span.tag)
 m.sohu.com##.feed-list-scoped > div[data-spm-type="content"]
+m.sohu.com##.info-banner-wrapper, .top-bill-wrapper, .middle-insert-ad
 m.taobao.com##.install-app
 m.taobao.com##body > button[style*="position: fixed;"]
 m.taobao.com##body > div#SLK_manualPopBox
+m.thepaper.cn###moblink_header
+m.thepaper.cn##[class^=index_footer_banner]
 m.toutiao.com##.download-bar__container
 m.toutiao.com##.float-activate-button
 m.toutiao.com##div[id^="top-banner-container-"]
@@ -888,13 +949,24 @@ m.youku.com,v.youku.com#%#//scriptlet('set-constant', 'Object.prototype._adData'
 m.youm7.com##.mobileAdvFooter
 m.youtube.com###koya_child_6
 m.youtube.com##.companion-ad-container
+m.youtube.com##.related-chips-slot-wrapper>ytm-slim-video-metadata-section-renderer>ytm-watch-metadata-app-promo-renderer
+mail.google.com###nav
 mail.yahoo.co.jp##img[alt="Yahoo!����꒤����"]
 mail.yahoo.co.jp##img[alt="Yahoo!����꒤����"] + div[class^="sc-"]
 mail.yahoo.com###slot_LREC
 mail.yahoo.com##[data-test-id^="pencil-ad"]
 mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://beap.gemini.yahoo.com/mbclk?"]
+main.m.taobao.com###SLK_evokeUi_v2_wrap
+main.m.taobao.com##button
 manga.bilibili.com##.download-hinter
 manga.bilibili.com##.download-tip
+manhuapica.com###splide01
+manhuapica.com##.imaged
+manhuapica.com##.justify-content-center
+manhuapica.com##a[data-href="/ad/?jump=aHR0cHM6Ly9hZC5hYzEzMy54eXovOTEveW91eXUucGhw&pid=43395"]
+manhuapica.com##a[data-href="/ad/?jump=aHR0cHM6Ly9kLmFqanAzNjUuY29tP2NoYW5uZWw9dGFqNjc0&pid=43508"]
+manhuapica.com##a[data-web="false"]
+manhuapica.com##a[href="/ad/?jump=aHR0cHM6Ly9kLmFqbGNwMDEuY29tP2NoYW5uZWw9dGFqNjc0&pid=43458"]
 manwa.me##.ad-area > a
 manwa.me#@#.ad-area
 manwa1.me,manwa2.me,manwa.me##.ad-area-close
@@ -929,6 +1001,7 @@ music.163.com##.m-buywin
 music.163.com##.m-link
 music.163.com##.song-relate-info
 music.163.com##.u-btn
+music.sonyselect.net##.bg-sky-500
 mzh.moegirl.org.cn###open-in-app-wrapper
 nani.baidu.com##.app_download_box
 nani.baidu.com##.celebrity
@@ -990,6 +1063,7 @@ pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixnet.net#?##main > div.header-fixed-area:has(> div#header-ad-fixed)
 pixnet.net,inmywordz.com,sharonlife.tw##.adsbyfalcon
+poe.com##.ReactModal__Overlay
 pornhub.com###hd-rightColVideoPage>none
 pornhub.com##.adContainer
 pornhub.com##.hd.clear
@@ -1022,6 +1096,8 @@ qzone.qq.com##.gb-bill-area
 qzone.qq.com##.pop-app-list-c
 qzone.qq.com##.side_wrapper.side_wrapper_v3
 qzone.qq.com##.topic_item[data-url*=".gdt.qq.com/"]
+rebang.today##.arco-btn-primary
+reddit.com##.XPromoPill, .TopNav__promoButton
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.mobile-web-redirect-bar
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##shreddit-async-loader[bundlename="bottom_bar_xpromo"]
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.XPromoPopup.m-active
@@ -1124,6 +1200,7 @@ sina.com.tw##.adbig300_mid
 sina.com.tw##.tablet_above_ad
 sina.com.tw##div[style*="min-height"][style*="250px"]
 sina.com.tw##div[style="height:156px;width:570px;margin:0px auto;display:block;"]
+sleazyfork.org##.ad-entry
 sm.cn###download-uc
 sm.cn###download-uc-v2
 sm.cn###index_haodongxi
@@ -1289,6 +1366,7 @@ tempest.com#@#.search-result-item--ad
 tempest.com#@?#.search-result-item:has(> div.search-result-item__text--sidebar-ad-or-mobile)
 tieba.baidu.com###j_light_see_index
 tieba.baidu.com###pagelet_entertainment-liveshow\/pagelet\/video_head
+tieba.baidu.com###tiebaCustomPassLogin
 tieba.baidu.com##.app-view > div.top-guide
 tieba.baidu.com##.app_download_box
 tieba.baidu.com##.client_ad_banner
@@ -1321,12 +1399,16 @@ tieba.baidu.com##.only-lz
 tieba.baidu.com##.open-style
 tieba.baidu.com##.post_client_down
 tieba.baidu.com##.recommend-title-open-app
+tieba.baidu.com##.region_bright
 tieba.baidu.com##.sign-box
 tieba.baidu.com##.tb-forum-user__right
+tieba.baidu.com##.tieba-custom-pass-login
 tieba.baidu.com##.tieba-logo
 tieba.baidu.com##.tl_spread
 tieba.baidu.com##.top_toutu_admarks
 tieba.baidu.com##.tuijian-wrap
+tieba.baidu.com##.u_member
+tieba.baidu.com##.ui_bubble_down
 tieba.baidu.com##DIV[id^='aside-ad']
 tieba.baidu.com##DIV[id^='mediago-tb-frs-list']
 tieba.baidu.com##a.j_couplet.couplet_right,a.j_couplet.couplet_left
@@ -1335,11 +1417,6 @@ tieba.baidu.com##div[class*='-ad-pb-']
 tieba.baidu.com##nav > div[class="w-row w-row-align-center w-row-justify-between nav-bar"]
 tieba.baidu.com,wapp.baidu.com##.iSlider-wrapper-container-hot-thread
 tieba.baidu.com,wapp.baidu.com##a.fixed_bar
-tieba.baidu.com###tiebaCustomPassLogin
-tieba.baidu.com##.region_bright
-tieba.baidu.com##.u_member
-juejin.cn##.open-button
-|https://tieba.baidu.com/errorpage/getGoodThread
 tiktok.com##.app-promotion
 tiktok.com##.download-container.card
 tiktok.com##.footer-guide
@@ -1389,12 +1466,23 @@ v2ex.com#?##Rightbar > .box:has(> .inner > .adsbygoogle)
 v2ex.com#?##Rightbar > .box:has(> .inner > div > span:contains(Sponsored by))
 v2ex.com#?##Rightbar > div.box:has(> div.inner a[target="_blank"] > img[src*="cdn.v2ex.com/assets/sidebar/"])
 v2ex.com#?#.box:-abp-has(>.inner>div>span[style]:-abp-contains(Sponsored))
+view.inews.qq.com##[class^="new-hot-comment_subText"]
+view.inews.qq.com##[class^="normal_buttonWrap"]
+view.inews.qq.com##[class^="slider-top-bar_sliderWrapper"]
+wap.gamersky.com##.gsTgAppConCommentBtn
+wap.gamersky.com##.gsTgWapConBdshareTopBox
+wap.gamersky.com##.ymw-footer
+wap.gamersky.com##.ymw-header2021
+wap.gamersky.com##.ymw-rel-list
+wap.gamersky.com##.ymw-rel-mgame
 wap.ithome.com###a_ad
+wap.mail.qq.com##.download_container
 wap.sogou.com###sogou_vr_70321601_5
 wap.sogou.com###sogou_vr_70323201_-5
 wapwenku.baidu.com,wk.baidu.com###bottomFixed
 wapwenku.baidu.com,wk.baidu.com##.tout
 wapwenku.baidu.com,wk.baidu.com##a[href^="http://www.baidu.com/cpro.php?"]
+weibo.cn##.wrap, .ad-wrap
 weibo.com#$?#.card-wrap:has(> .card-top > .s-fr:contains(J)) { remove: true; }
 weiyun.com#@#.page-ad
 weiyun.com#@#.page-share
@@ -1427,21 +1515,23 @@ wenku.baidu.com##div[class*="tiger-"][class*="-dialog"]
 wenku.baidu.com##div[id^="html-reader-AD-"]
 wenku.baidu.com##div[id^="html-reader-banner-"]
 wenku.baidu.com##div[page="PcView"]
-wk.baidu.com##.card-box
-wk.baidu.com##.wk-student-defense
-wk.baidu.com##.search-pay-container
 wk.baidu.com##.app-choice_428cd
-wk.baidu.com##.btns-wrap>div
-wk.baidu.com##div[page-data="[object Object],[object Object],[object Object],[object Object]"]
-wk.baidu.com##.new-releted-doc
-wk.baidu.com##.search-vip-card
-wk.baidu.com##.tools-guide-card-defence
-wk.baidu.com##.green-guide-card
-wk.baidu.com##.copy-all-text-container
 wk.baidu.com##.btn-download
-www.123pan.com##.bottom_banner_guide
+wk.baidu.com##.btns-wrap>div
+wk.baidu.com##.card-box
+wk.baidu.com##.copy-all-text-container
+wk.baidu.com##.green-guide-card
+wk.baidu.com##.n-wrap
+wk.baidu.com##.new-releted-doc
+wk.baidu.com##.search-pay-container
+wk.baidu.com##.search-vip-card
+wk.baidu.com##.to-collect
+wk.baidu.com##.tools-guide-card-defence
+wk.baidu.com##.wk-student-defense
+wk.baidu.com##div[page-data="[object Object],[object Object],[object Object],[object Object]"]
 www.123pan.com###bannerBottom
 www.123pan.com##.appHeader
+www.123pan.com##.bottom_banner_guide
 www.123pan.com##img[src="https://statics.123pan.com/static-by-custom/img/s1.png"]
 www.18comic.vip##.bot-per
 www.apkmirror.com###adtester-container-106
@@ -1461,6 +1551,8 @@ www.baidu.com##.callicon-warp
 www.baidu.com##.ec_wise_ad
 www.baidu.com##.yx-entity__1htNY
 www.baidu.com##a.square-enterance
+www.bilibili.com##.float-btn
+www.bilibili.com##.open-btn
 www.bqgyy.net###nu71t_c4ca4238a0b923820dcc509a6f75849b
 www.bqgyy.net##.nu71t_c4ca4238a0b923820dcc509a6f75849b
 www.csdn.net##.m_toolbar_left_app_btn
@@ -1468,6 +1560,7 @@ www.djacg.com##img[src="https://img.moepic.xyz/2022/09/23/632d9841b2e08.gif"]
 www.gequbao.com##.container>p
 www.google.com###tads
 www.google.com##.ads-ad
+www.google.com##script[onmousedown=" "]
 www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.top_link_hidden,[src$='.gif']
 www.ithome.com###lapin
 www.ithome.com##.content>a[href="http://m.ithome.com/ithome/"]
@@ -1483,13 +1576,19 @@ www.jianshu.com##.note-graceful-button
 www.jianshu.com##.note__flow__download
 www.jianshu.com##.write-comment
 www.jianshu.com##[aria-label='lwa-ad-one']
+www.pixiv.net##._gdpr-notify-header, .description-signup-header
+www.pixiv.net##.ad-frame-container, .premium-lead-new-t-info-home-top
 www.pixiv.net##.premium-lead-new-t-info-home-top
 www.speedtest.net##.webstore-app-links
+www.tiktok.com##.css-1xw8s8f-DivMask
+www.tiktok.com##.css-lzx7z-DivBodyWrapper
 www.wenshushu.cn##.g-download_app
 www.yuque.com###openInAppBtn
 www.yuque.com##.ant-btn
 www.zhihu.com##.OpenInAppButton
 www.zhihu.com##.css-183aq3r
+www.zhihu.com##.css-1wq6v87
+www.zhihu.com##.css-vzd0n
 www.zhihu.com##A.MBannerAd
 www.zhihu.com##A.MHotFeedAd,.MRelateFeedAd,.WeiboAd-wrap,.AdvertImg.AdvertImg--isLoaded.MBannerAd-image,.Banner-adTag,[href='https://maimai.cn/']
 y.music.163.com##.content
@@ -1599,6 +1698,9 @@ zhidao.baidu.com###main-content > div[class]:first-child > a
 zhidao.baidu.com###qb-content div.businessvip-wrapper
 zhidao.baidu.com##.doodle-container
 zhidao.baidu.com##.doodle-container,.feed-recommend,.wgt-recommend-business,[class*="-ads"],[class*="related-yxiao-item"],[class*="icon-bdad"],[class*="-youx"]
+zhidao.baidu.com##.icon-reward
+zhidao.baidu.com##.question-answer-guide
+zhidao.baidu.com##.question-answer-reward-tips-content
 zhidao.baidu.com##a[class="cur"][href^="/mobile/board?"] > img
 zhidao.baidu.com##div[class^="cms-slide"] > p[class="cms-link-title"]
 zhidao.baidu.com#?#.wgt-ads
@@ -1637,6 +1739,8 @@ zy.baidu.com##a[href^="https://zy.baidu.com/act/seo"]
 |api.zhihu.com/distribute/rhea/qa_ad_card
 |https://gamein.baidu.com/game/link/jump?number=40
 |https://map.baidu.com/zt/client/index/?down=iphone&qd=1012139p&fr=webapp_callna
+|https://tieba.baidu.com/errorpage/getGoodThread
+|https://www.apkmirror.com/detroitchicago/portland.js?gcb=6&cb=81
 |https://www.jianshu.com/apps
 |https://x0.ifengimg.com/feprod/c/m/mobile_inice_v202.js
 |tsyndicate.com
@@ -1670,39 +1774,3 @@ zy.baidu.com##a[href^="https://zy.baidu.com/act/seo"]
 ||www.youtube.com/ptracking
 ||zkappsart.com^
 ~weibo.com##.con_ad
-.adsbygoogle
-www.bilibili.com##.open-btn
-www.bilibili.com##.float-btn
-sleazyfork.org##.ad-entry
-wk.baidu.com##.n-wrap
-wk.baidu.com##.to-collect
-m.36kr.com##.article-top-swiper-goapp
-m.36kr.com##.app-track-banner-outer
-m.36kr.com##.float-app-button-wrp
-m.qidian.com##.mask
-m.qidian.com##.first-item
-m.qidian.com###bookDetailDownload
-m.qidian.com##.inset-0
-m.qidian.com##.js-download-link
-m.qidian.com##.regular
-m.qidian.com##.auto-tr
-m.qidian.com##._footerBackTopCell_1eu4r_203
-m.qidian.com##._bottomNavDl_1vaag_1777
-zhidao.baidu.com##.question-answer-reward-tips-content
-zhidao.baidu.com##.question-answer-guide
-zhidao.baidu.com##.icon-reward
-www.zhihu.com##.css-vzd0n
-www.zhihu.com##.css-1wq6v87
-m.bilibili.com##.bili-avatar-pendent-dom
-m.bilibili.com##.bili-avatar-size-48
-m.bilibili.com##.bili-avatar-nft-icon
-m.bilibili.com##.sailing
-m.bilibili.com##.nameplate-icon
-poe.com##.ReactModal__Overlay
-|https://www.apkmirror.com/detroitchicago/portland.js?gcb=6&cb=81
-||static.zhihu.com/heifetz/*.signflow*.js
-artbarricade.fandom.com##.notifications-box
-download.csdn.net##.blind_box
-download.csdn.net##.btn
-www.tiktok.com##.css-lzx7z-DivBodyWrapper
-www.tiktok.com##.css-1xw8s8f-DivMask
