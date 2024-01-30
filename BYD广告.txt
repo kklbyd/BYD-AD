@@ -1774,3 +1774,19 @@ zy.baidu.com##a[href^="https://zy.baidu.com/act/seo"]
 ||www.youtube.com/ptracking
 ||zkappsart.com^
 ~weibo.com##.con_ad
+sspai.com###btn-call-app
+www.pixiv.net##.premium-lead-t-footer
+www.pixiv.net##.banner-ad-footer-scale
+finance.sina.cn##.m-sentiment-blk
+zhidao.baidu.com##.deatil-content-button
+zhidao.baidu.com##.daily-bottom-download
+zhidao.baidu.com##.daily-header-download
+zhidao.baidu.com##.bottom-fixed-wrapper
+zhidao.baidu.com##.s
+zhidao.baidu.com##.bom-meta
+www.reddit.com###xpromo-small-header
+sm.cn##.article.ali_row + #sc ~ .article.ali_row
+sm.cn###sc + .article.ali_row
+sm.cn##.ad-wolong-container
+sm.cn##.ali_rowwww.baidu.com##[ad_aid]
+www.baidu.com##ARTICLE._aladdin_1dflr_1.cu-container.aladdin.c-container.cos-aladdin._no-blank_1dflr_324.sp-purc-san_3AMlU.hide-android-bg_NH10M
