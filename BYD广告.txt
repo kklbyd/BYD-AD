@@ -846,6 +846,23 @@ m.36kr.com##.article-top-swiper-goapp
 m.36kr.com##.float-app-button-wrp
 m.amap.com##.call_native_button_wrapper
 m.amap.com##.clearfix.shadow
+m2.baidu.com###navs
+m2.baidu.com###page-copyright
+m2.baidu.com##.banners.banners-2
+m2.baidu.com##.banners.banners-4
+m2.baidu.com##.blank-frame
+m2.baidu.com##.c-line-ivkmask
+m2.baidu.com##.callicon-warp
+m2.baidu.com##.ec_ad_results
+m2.baidu.com##.ec_adv
+m2.baidu.com##.ec_wise_ad, .c-video-container, .c-blocka ec_title
+m2.baidu.com##.news_ad
+m2.baidu.com##.se-ft-promlink
+m2.baidu.com##[srcid^="live_medical"]
+m2.baidu.com##[srcid^="med_mall_recommend_san"]
+m2.baidu.com##[srcid^="med_wz"]
+m2.baidu.com##a.square-enterance
+m2.baidu.com##a[href*="m.lecai.com"]
 m.baidu.com###navs
 m.baidu.com###page-copyright
 m.baidu.com##.banners.banners-2
@@ -1790,3 +1807,13 @@ sm.cn###sc + .article.ali_row
 sm.cn##.ad-wolong-container
 sm.cn##.ali_rowwww.baidu.com##[ad_aid]
 www.baidu.com##ARTICLE._aladdin_1dflr_1.cu-container.aladdin.c-container.cos-aladdin._no-blank_1dflr_324.sp-purc-san_3AMlU.hide-android-bg_NH10M
+|https://static.zhihu.com/heifetz/chunks/3433.11c01567de4f49ff3e94.js
+zhuanlan.zhihu.com##.css-1wq6v87
+wap.10086.cn###ewmCodeFrame
+wap.10086.cn##img[src="/uploadBaseDir/content/jpg/20230920/20230920105627522Cy5_0.jpg"]
+wap.10086.cn##.item
+wap.10086.cn##.carousel-indicators
+wap.10086.cn##.guess
+www.baidu.com##DIV#header
+mp.weixin.qq.com##.js_darkmode__0
+manwa.me##img[src="https://mwfimsvfast3.cc/static/images/missing6-m1.png"]
