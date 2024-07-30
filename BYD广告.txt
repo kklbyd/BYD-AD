@@ -2,7 +2,7 @@
 ! Description：本规则主要针对百度系网站，谷歌，必应等搜索引擎，萌娘百科，简书，知乎，CSDN等常用网站的广告以及下载APP提示
 ! Homepage: https://t.me/BYD_Radio
 ! Title: BYD广告
-! Total Count: 1863
+! Total Count: 1876
 ! Update Time: 2024-02-12
 ! by: TG @BYD_ARK
 !+ NOT_OPTIMIZED
@@ -636,6 +636,7 @@ docs.google.com##.docs-ml-promotion
 download.csdn.net##.ad_area_1
 download.csdn.net##.blind_box
 download.csdn.net##.btn
+download.csdn.net##.passport-login-container
 download.csdn.net##.quake-slider
 duckduckgo.com##.js-atb-banner
 duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion,duckduckgo.com#@##ads
@@ -857,6 +858,7 @@ juejin.cn##.open-button
 lite.qwant.com#@?#.content > article.result:has(> p > span.ad)
 live.bilibili.com##.container-wrapper[style="height:180px;min-width:1280px"]
 live.bilibili.com##.container-wrapper[style="height:446px;min-width:1280px"]
+live.bilibili.com#.web-player-module-area-mask
 m.163.com##.backflow-floating
 m.163.com##.js-open-app, .js-recommend-vip, .backflow-floating, .js-recommend.recommend
 m.36kr.com##.app-track-banner-outer
@@ -912,6 +914,8 @@ m.docin.com##.foldpagewg-bottom
 m.docin.com##.open_in_app
 m.douban.com##.app-link
 m.douban.com##.btn
+m.douban.com##.nav-open-app
+m.douban.com##.talion-nav-footer
 m.douban.com##div[style="position: fixed; top: 0px; overflow: hidden; z-index: 2147483647; background-color: rgba(0, 0, 0, 0.5); height: 110%;"]
 m.douban.com##div[style="position: relative;margin: 0 -18px"]
 m.douban.com##img[src="https://img1.doubanio.com/f/talion/1c887848ff2671f8ae3a4530ab32e268b98a04cd/pics/card/download_app_banner.png"]
@@ -926,15 +930,19 @@ m.huya.com##.open-app-button
 m.huya.com##.show_more
 m.ithome.com##.hot-app, .open-app, .open-app-banner, .brand-column-lapin
 m.ithome.com##.placeholder:has(.tip-gray)
+m.qidian.com###appDownloadNex
 m.qidian.com###bookDetailDownload
 m.qidian.com##._bottomNavDl_1vaag_1777
 m.qidian.com##._footerBackTopCell_1eu4r_203
 m.qidian.com##.auto-tr
 m.qidian.com##.first-item
+m.qidian.com##.footer-backtop-cell
+m.qidian.com##.footer-copy
 m.qidian.com##.inset-0
 m.qidian.com##.js-download-link
 m.qidian.com##.mask
 m.qidian.com##.regular
+m.qidian.com##.secondary-r
 m.sm.cn###footlink
 m.sm.cn###sc_app_game_reco_1_6
 m.sm.cn##.ad-alert-info
@@ -1405,6 +1413,10 @@ speedtest.im##.botron>footer
 speedtest.im##.center>div>ul
 speedtest.im##.navbar-toggle
 sspai.com###btn-call-app
+static.nfapp.southcn.com###audio-jump-tag
+static.nfapp.southcn.com###z_box
+static.nfapp.southcn.com##.toApp
+static.nfapp.southcn.com##a[onclick="newShareCount(11),countDownload(8424125, 0),openAppAdapter(8424125, 'share', false, 5)"]
 suchmaschine.com#@##ypa-top-wrap > iframe[src^="http://partnerads.ysm.yahoo.com/ypa/?"]
 swisscows.com#@#.web-results > .a11t
 t.shuqi.com##.CommonGuideBar
@@ -1535,6 +1547,7 @@ wap.ithome.com###a_ad
 wap.mail.qq.com##.download_container
 wap.sogou.com###sogou_vr_70321601_5
 wap.sogou.com###sogou_vr_70323201_-5
+wap.sogou.com##.qb-download-banner-non-share
 wapwenku.baidu.com,wk.baidu.com###bottomFixed
 wapwenku.baidu.com,wk.baidu.com##.tout
 wapwenku.baidu.com,wk.baidu.com##a[href^="http://www.baidu.com/cpro.php?"]
@@ -1599,19 +1612,14 @@ www.apkmirror.com##.google-ad-leaderboard
 www.apkmirror.com##DIV[style$=' display: flex; justify-content: center; font-family: Roboto, Arial;']
 www.baidu.com###foot-logo
 www.baidu.com###navs
-www.baidu.com##.banners.banners-2
-www.baidu.com##.banners.banners-4
-www.baidu.com##.blank-frame
-www.baidu.com##.c-line-ivkmask
-www.baidu.com##.callicon-warp
 www.baidu.com##.ec_wise_ad
 www.baidu.com##.result-op[tpl="right_game_recommend"]
 www.baidu.com##.yx-entity__1htNY
-www.baidu.com##ARTICLE._aladdin_1dflr_1.cu-container.aladdin.c-container.cos-aladdin._no-blank_1dflr_324.sp-purc-san_3AMlU.hide-android-bg_NH10M
-www.baidu.com##DIV#header
 www.baidu.com##a.square-enterance
 www.baidu.com##div[id$="_canvas"]
 www.baidu.com##style[id*="s-m"] + div[id^="m"]
+www.bilibili.com###activity_vote
+www.bilibili.com##.bili-mini-mask
 www.bilibili.com##.float-btn
 www.bilibili.com##.open-btn
 www.bqgyy.net###nu71t_c4ca4238a0b923820dcc509a6f75849b
@@ -1619,7 +1627,10 @@ www.bqgyy.net##.nu71t_c4ca4238a0b923820dcc509a6f75849b
 www.coolapk.com###footer
 www.coolapk.com##.right-part
 www.csdn.net##.m_toolbar_left_app_btn
+www.deepl.com##.AppBanner-module--banner--7aa19
+www.deepl.com##.bg-blue-next-100
 www.djacg.com##img[src="https://img.moepic.xyz/2022/09/23/632d9841b2e08.gif"]
+www.douyin.com###related-video-card-login-guide
 www.gequbao.com##.container>p
 www.google.com###tads
 www.google.com##.ads-ad
@@ -1647,6 +1658,7 @@ www.pixiv.net##.banner-ad-footer-scale
 www.pixiv.net##.premium-lead-new-t-info-home-top
 www.pixiv.net##.premium-lead-t-footer
 www.reddit.com###xpromo-small-header
+www.sou.com##.fixed
 www.speedtest.net##.webstore-app-links
 www.tiktok.com##.css-1xw8s8f-DivMask
 www.tiktok.com##.css-lzx7z-DivBodyWrapper
@@ -1661,6 +1673,7 @@ www.yuque.com##.ant-btn
 www.zhihu.com##.OpenInAppButton
 www.zhihu.com##.css-183aq3r
 www.zhihu.com##.css-1wq6v87
+www.zhihu.com##.css-rg1dmv
 www.zhihu.com##.css-vzd0n
 www.zhihu.com##A.MBannerAd
 www.zhihu.com##A.MHotFeedAd,.MRelateFeedAd,.WeiboAd-wrap,.AdvertImg.AdvertImg--isLoaded.MBannerAd-image,.Banner-adTag,[href='https://maimai.cn/']
