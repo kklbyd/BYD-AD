@@ -1598,10 +1598,7 @@ wk.baidu.com##.to-collect
 wk.baidu.com##.tools-guide-card-defence
 wk.baidu.com##.wk-student-defense
 wk.baidu.com##div[page-data="[object Object],[object Object],[object Object],[object Object]"]
-www.123pan.com###bannerBottom
-www.123pan.com##.appHeader
-www.123pan.com##.bottom_banner_guide
-www.123pan.com##img[src="https://statics.123pan.com/static-by-custom/img/s1.png"]
+www.123pan.com##.appBottomBtn.banner-bottom
 www.18comic.vip##.bot-per
 www.apkmirror.com###adtester-container-106
 www.apkmirror.com###adtester-container-125
