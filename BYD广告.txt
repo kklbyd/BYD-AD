@@ -2,7 +2,7 @@
 ! Description：本规则主要针对百度系网站，谷歌，必应等搜索引擎，萌娘百科，简书，知乎，CSDN等常用网站的广告以及下载APP提示
 ! Homepage: https://t.me/BYD_Radio
 ! Title: BYD广告
-! Total Count: 1864
+! Total Count: 1876
 ! Update Time: 2024-02-12
 ! by: TG @BYD_ARK
 !+ NOT_OPTIMIZED
@@ -1045,8 +1045,6 @@ mc.163.com###NIE-topBar-news
 mc.163.com##.down-box
 mediafire.com#@##upsellBox
 microsoftnews.msn.cn#?#.riverSections-DS-EntryPoint1-1 > div[style^="display: grid;"] > div[style^="grid-area:"]:last-child > .card-DS-card1-1 > div[class^="nativeAd-DS-card"]:upward(2)
-moegirl.org.cn##.moe-card[data-region="oversea"]
-moegirl.org.cn##.moe-card[region="oversea"]
 mp.weixin.qq.com##.js_darkmode__0
 music.163.com###btn-open-id
 music.163.com##.content
@@ -1598,6 +1596,9 @@ wk.baidu.com##.to-collect
 wk.baidu.com##.tools-guide-card-defence
 wk.baidu.com##.wk-student-defense
 wk.baidu.com##div[page-data="[object Object],[object Object],[object Object],[object Object]"]
+www.123pan.com##.ant-carousel
+]"]
+www.123pan.com##.banner-container-h5
 www.123pan.com##.appBottomBtn.banner-bottom
 www.18comic.vip##.bot-per
 www.apkmirror.com###adtester-container-106
@@ -1770,16 +1771,7 @@ youtube.com#?#ytd-rich-item-renderer:-abp-has(ytd-display-ad-renderer)
 zh.m.wikipedia.org##.banner-container
 zh.moegirl.org.cn###moe-global-footer-bottom
 zh.moegirl.org.cn###moe-open-in-app
-zh.moegirl.org.cn##.banner-slider-container
-zh.moegirl.org.cn##.infoBox
-zh.moegirl.org.cn##.mobile-grandpa-link
-zh.moegirl.org.cn##.n-badge-sup
-zh.moegirl.org.cn##.n-button--secondary
-zh.moegirl.org.cn##.social-links
-zh.moegirl.org.cn##.v-binder-follower-container
-zh.moegirl.org.cn##.vue3-marquee
-zh.moegirl.org.cn##div.extra-buttons.flex.gap-1:last-child > a.n-button.n-button--primary-type.n-button--medium-type.flex-1:last-child
-zh.moegirl.org.cn##div.n-notification.__notification-1c6bqbn-i.n-notification--closable.n-notification--show-avatar
+zh.moegirl.org.cn##.__button-dark-1379ga8-dfltmp
 zhidao.baidu.com###act-link-banner
 zhidao.baidu.com###knowledge-answer-list
 zhidao.baidu.com###main-content > div[class]:first-child > a
